@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { View, Text, TextInput, TouchableOpacity, FlatList, StyleSheet, SafeAreaView } from 'react-native';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000'; // Use this for web environment
+const API_URL = 'http://localhost:3000'; 
 
 axios.defaults.withCredentials = true;
 
